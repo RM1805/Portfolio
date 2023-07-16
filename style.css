@@ -16,12 +16,10 @@ body {
 
 /* Header Styles */
 header {
-  background-color: #ff6347; 
+  background-color: #ff6f61;
   padding: 40px;
   text-align: center;
 }
-
-
 
 header h1 {
   font-size: 54px;
@@ -41,6 +39,7 @@ header .profile {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   margin-bottom: 20px;
 }
 
@@ -49,11 +48,11 @@ header .profile img {
   height: 150px;
   border-radius: 50%;
   object-fit: cover;
-  margin-right: 20px;
+  margin-bottom: 10px;
 }
 
 header .profile-info {
-  text-align: left;
+  text-align: center;
 }
 
 header .profile-info h1 {
@@ -281,19 +280,27 @@ section p {
 }
 
 .social-icons {
+  display: flex;
+  justify-content: center;
   margin-top: 10px;
 }
 
 .social-icons a {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   margin-right: 10px;
   color: #ffffff;
   font-size: 24px;
-  transition: color 0.3s ease;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #ff6f61;
+  transition: background-color 0.3s ease;
 }
 
 .social-icons a:hover {
-  color: #cccccc;
+  background-color: #ff564e;
 }
 
 /* Footer Styles */
@@ -356,7 +363,6 @@ footer {
   header .profile img {
     width: 120px;
     height: 120px;
-    margin-right: 0;
     margin-bottom: 10px;
   }
   
