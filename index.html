@@ -3,15 +3,23 @@
 <head>
   <title>My Portfolio</title>
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/b4ec284441.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <header>
-    <h1>Rishi Mishra</h1>
-    <h1 class="desc">Software Developer</h1>
+    <div class="profile">
+      <img src="images/WhatsApp Image 2023-07-17 at 01.14.59.jpeg" alt="Profile Image">
+      <div class="profile-info">
+        <h1>Rishi Mishra</h1>
+        <h2 class="desc">Software Developer</h2>
+      </div>
+    </div>
     <nav>
       <ul>
         <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
@@ -32,12 +40,34 @@
         <li>Express.js</li>
         <li>React.js</li>
         <li>React Native</li>
-        <li>MaterialUI</li>
+        <li>Material-UI</li>
         <li>MongoDB</li>
         <li>Git/GitHub</li>
         <li>OAuth</li>
         <li>JWT</li>
+        <li>CI/CD</li>
       </ul>
+    </section>
+    <section id="experience">
+      <h2>Experience</h2>
+      <div class="experience-item">
+        <h3>Web Developer Intern</h3>
+        <p>Code Clause | July 2023 - Aug 2023 </p>
+        <ul>
+          <li>Developed and maintained web applications using JavaScript, React, and Node.js.</li>
+          <li>Collaborated with cross-functional teams to deliver high-quality software solutions.</li>
+          <li>Implemented responsive design and optimized web performance.</li>
+        </ul>
+      </div>
+      <div class="experience-item">
+        <h3>Web Developer</h3>
+        <p>Ample Media | April 2023 - June 2023</p>
+        <ul>
+          <li>Assisted in the development and testing of web applications.</li>
+          <li>Participated in code reviews and provided feedback for improvements.</li>
+          <li>Contributed to the implementation of new features and bug fixes.</li>
+        </ul>
+      </div>
     </section>
     <section id="projects">
       <h2>My Projects</h2>
@@ -60,27 +90,29 @@
         <a href="https://sharenotes-qsjy.onrender.com/" target="_blank">View Project</a>
       </article>
       <article>
-        <h3>Lexi Mind(GPT)</h3>
+        <h3>Lexi Mind (GPT)</h3>
         <p>Lexi Mind is an intelligent AI language model designed to assist and engage in natural language conversations. With advanced capabilities in various domains, Lexi offers accurate information, creative solutions, and personalized interactions to provide an enhanced conversational experience.</p>
-        <img src="images/Screenshot (243).png" alt="Project 3">
+        <img src="images/Screenshot (243).png" alt="Project 4">
         <a href="https://lexi-mind.onrender.com/" target="_blank">View Project</a>
       </article>
       <article>
-      <h3>Share Your Secrets</h3>
-      <p>Share Your Secrets is a secure web platform that enables users to share their secrets anonymously. With seamless registration and login options, including OAuth integration, users can trust the platform to keep their identities hidden while encouraging honest and confidential self-expression.</p>
-      <img src="images/Screenshot (246).png" alt="Project 3">
-      <a href="https://share-secrets-pirj.onrender.com/" target="_blank">View Project</a>
-    </article>
+        <h3>Share Your Secrets</h3>
+        <p>Share Your Secrets is a secure web platform that enables users to share their secrets anonymously. With seamless registration and login options, including OAuth integration, users can trust the platform to keep their identities hidden while encouraging honest and confidential self-expression.</p>
+        <img src="images/Screenshot (246).png" alt="Project 5">
+        <a href="https://share-secrets-pirj.onrender.com/" target="_blank">View Project</a>
+      </article>
     </section>
     <section id="contact">
       <h2>Contact Information</h2>
-      <p class="cont">You can contact me at <a href="mailto:rmtechlabs001@gmail.com" target="_blank"> rmtechlabs001@gmail.com</a></p>
-      <a href="https://www.linkedin.com/in/rishi-mishra-3a2765210/" target="_blank"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
-      <a href="https://github.com/RM1805" target="_blank"><i class="fa-brands fa-github fa-2xl"></i></i></a>
+      <p class="cont">You can contact me at <a href="mailto:rmtechlabs001@gmail.com" target="_blank">rmtechlabs001@gmail.com</a></p>
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/rishi-mishra-3a2765210/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/RM1805" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
     </section>
   </main>
+  <footer>
+    <p>&copy; 2023 | All Rights Reserved</p>
+  </footer>
 </body>
-<footer>
-    <p class="text-center">Copyright &copy; 2023 | All Rights Reserved</p>
-</footer>
 </html>
